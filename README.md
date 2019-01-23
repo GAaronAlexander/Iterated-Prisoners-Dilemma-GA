@@ -6,15 +6,13 @@ Uses a genetic algorithm to evolve strategies for playing iterated prisoner's di
 
 **Required Libraries:** NumPy, MatPlotLib, Glob, CSV, Pandas
 
-**Workflow:**
-
-1. Run the GA
+**Example Run:**
+Uses default settings (random initial population, population size of 20, runs for 100 generations, a probability of crossover of 0.8 and a probability of mutation of 0.001, tournament selection with tournament size of 2, and one-point crossover).
 ```
-run_prisoners_ga(0, max_gen = 20000)
+run_folder = run_prisoners_ga(seed = 0, data_folder = Path('IPD_outputs'))
+process_output(run_folder)
+plot_results(run_folder)
 
 ```
-2. Run IPD_output_process to take outputs from GA and turn into summary file with metrics on each generation throughout evolution.
 
-3. Run results_analysis to plot metrics in summary file
 
-![image](https://user-images.githubusercontent.com/44376656/51433561-ec820600-1c01-11e9-9f16-2561234b2713.png)
