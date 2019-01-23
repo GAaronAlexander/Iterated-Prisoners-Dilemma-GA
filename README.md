@@ -14,5 +14,5 @@ process_output(run_folder)
 plot_results(run_folder)
 
 ```
-
+![image](https://user-images.githubusercontent.com/44376656/51590907-718a4b00-1ea0-11e9-92ce-def500fddb0a.png)
 
