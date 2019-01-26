@@ -25,9 +25,9 @@ def tit_for_tat():
 
 def always_defect():
   """Returns a string representing the always defect strategy."""
-  return = '0' * 85
+  return '0' * 85
 
 
 def always_cooperate():
   """Returns a string representing the always cooperate strategy."""
-  return = '1' * 85
+  return '1' * 85
