@@ -1,2 +1,0 @@
-seed,num_players,history_length,num_rounds,initial_population,population_size,prob_crossover,prob_mutation,selection_type,crossover_type,cost,benefit
-0,2,3,64,,20,0.8,0.001,tournament_2,onepoint,2,5
